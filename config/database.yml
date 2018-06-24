@@ -24,7 +24,7 @@ default: &default
 development:
   <<: *default
   database: week2
-  username: postgresql
+  username: postgres
   password: Seth42276
 
   # The specified database role being used to connect to postgres.

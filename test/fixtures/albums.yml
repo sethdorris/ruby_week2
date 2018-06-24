@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  genre: MyString
+  year: MyString
+  date_added: 2018-06-24
+  plays: 1
+
+two:
+  title: MyString
+  genre: MyString
+  year: MyString
+  date_added: 2018-06-24
+  plays: 1
