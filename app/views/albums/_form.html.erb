@@ -17,6 +17,16 @@
   </div>
 
   <div class="field">
+    <%= form.label :label_id %>
+    <%= form.select(:label_id, options_from_collection_for_select(Label.all, :id, :name)) %>
+  </div>
+
+  <div class="field">
+    <%= form.label :artist_id %>
+    <%= form.collection_check_boxes(:artist_ids, Artist.all, :id, :name) %>
+  </div>
+
+  <div class="field">
     <%= form.label :genre %>
     <%= form.text_field :genre, id: :album_genre %>
   </div>
